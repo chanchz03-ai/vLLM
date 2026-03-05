@@ -1,0 +1,62 @@
+[
+  {
+    "model": "openai/gpt-oss-20b",
+    "total_requests": 10,
+    "success_rate": 100.0,
+    "ttft": {
+      "p50": 252.6,
+      "p90": 814.6,
+      "p99": 814.6,
+      "mean": 274.4
+    },
+    "throughput": {
+      "mean_tps": 128.2,
+      "total_tokens": 646
+    }
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "total_requests": 20,
+    "success_rate": 100.0,
+    "ttft": {
+      "p50": 276.0,
+      "p90": 652.0,
+      "p99": 732.3,
+      "mean": 300.1
+    },
+    "throughput": {
+      "mean_tps": 135.6,
+      "total_tokens": 1309
+    }
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "total_requests": 10,
+    "success_rate": 100.0,
+    "ttft": {
+      "p50": 2584.8,
+      "p90": 3352.7,
+      "p99": 3352.7,
+      "mean": 2404.6
+    },
+    "throughput": {
+      "mean_tps": 22.1,
+      "total_tokens": 627
+    }
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "total_requests": 12,
+    "success_rate": 66.66666666666666,
+    "ttft": {
+      "p50": 4995.0,
+      "p90": 5650.9,
+      "p99": 5650.9,
+      "mean": 3967.2
+    },
+    "throughput": {
+      "mean_tps": 18.4,
+      "total_tokens": 690
+    }
+  }
+]

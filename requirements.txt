@@ -1,0 +1,30 @@
+# ─── Core ─────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+pydantic==2.10.3
+
+# ─── Groq / OpenAI-compatible client ──────────
+groq==0.12.0
+openai==1.57.0          # used as fallback + compatible client
+
+# ─── Async & HTTP ─────────────────────────────
+httpx==0.28.1
+aiofiles==24.1.0
+anyio==4.7.0
+
+# ─── Structured Output ────────────────────────
+jsonschema==4.23.0
+
+# ─── Benchmarking & Load Testing ──────────────
+locust==2.32.3
+rich==13.9.4             # pretty terminal output
+
+# ─── Observability ────────────────────────────
+prometheus-client==0.21.1
+structlog==24.4.0
+
+# ─── Utilities ────────────────────────────────
+python-multipart==0.0.20
+colorama==0.4.6
+tabulate==0.9.0
